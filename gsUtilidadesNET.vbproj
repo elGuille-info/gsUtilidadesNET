@@ -3,31 +3,43 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <RootNamespace>gsUtilidadesNET</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
-    <MyType>WindowsForms</MyType>
+
+    <!--<PlatformTarget>x86</PlatformTarget>-->
+    <Version>1.0.0.6</Version>
+    <FileVersion>1.0.0.6</FileVersion>
+    <ProductName>gsUtilidadesNET</ProductName>
+    <RootNamespace>gsUtilidadesNET</RootNamespace>
+    <AssemblyName>gsUtilidadesNET</AssemblyName>
+
+    <StartupObject>Sub Main</StartupObject>
 
     <OptionStrict>On</OptionStrict>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>elGuille.snk</AssemblyOriginatorKeyFile>
+
     <Company>elGuille</Company>
     <Authors>Guillermo Som (elGuille)</Authors>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>visual-basic vb c# dotnet net-core net-5 class-library colorize colorize-html compile utils colorear colorear-html compilar utilidades</PackageTags>
-    <Version>1.0.0.0</Version>
+    <Copyright>Copyright Guillermo Som (elGuille), 2020</Copyright>
+
     <Description>Utilidades para colorear, evaluar y compilar con dotnet
 Evaluar si tiene fallos, Compilar, Ejecutar y Colorear el código y para HTML
 
 (para .NET 5.0 revisión del 27-nov-2020)
 
-v1.0.0.3 (27/Nov/20) Se comprueba si está la carpeta de dotnet, se avisa mediante el evento Compilar.TieneDotnetEvent</Description>
-    <Copyright>Copyright Guillermo Som (elGuille), 2020</Copyright>
+v1.0.0.6 (27-nov-20) Quito el evento compartido de Compilar en el programa cliente comprobar el valor de TieneDotnet. Las versiones x86 y AnyCPU tendrá la misma versión</Description>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>visual-basic vb c# dotnet net-core net-5 class-library colorize colorize-html compile utils colorear colorear-html compilar utilidades</PackageTags>
+    <PackageReleaseNotes>v1.0.0.6 (27-nov-20) Quito el evento compartido de Compilar en el programa cliente comprobar el valor de TieneDotnet. Las versiones x86 y AnyCPU tendrá la misma versión
+v1.0.0.5 (27/Nov/20) v1.0.0.5 (27/Nov/20) Versión específica para AnyCPU sin preferencia de 32 bits</PackageReleaseNotes>
+    <PackageIcon>gsCompilarEjecutarNET.jpg</PackageIcon>
+
     <NeutralLanguage>es-ES</NeutralLanguage>
     <ApplicationIcon>VSProject_genericproject.Office_Deve.ico</ApplicationIcon>
-    <FileVersion>1.0.0.3</FileVersion>
-    <PackageReleaseNotes>v1.0.0.3 (27/Nov/20) Se comprueba si está la carpeta de dotnet, se avisa mediante el evento Compilar.TieneDotnetEvent
-</PackageReleaseNotes>
+
+    <RepositoryUrl>https://github.com/elGuille-info/gsUtilidadesNET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -35,13 +47,14 @@ v1.0.0.3 (27/Nov/20) Se comprueba si está la carpeta de dotnet, se avisa median
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
     <OutputPath>bin\Debug\</OutputPath>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <Prefer32Bit>true</Prefer32Bit>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants></DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
     <OutputPath>bin\Release\</OutputPath>
-    <Prefer32Bit>true</Prefer32Bit>
+    <Prefer32Bit>false</Prefer32Bit>
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
   </PropertyGroup>
 
@@ -71,6 +84,10 @@ v1.0.0.3 (27/Nov/20) Se comprueba si está la carpeta de dotnet, se avisa median
     <None Update="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="..\gsEvaluarColorearCodigoNET\gsEvaluarColorearCodigoNET vb\gsCompilarEjecutarNET.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 

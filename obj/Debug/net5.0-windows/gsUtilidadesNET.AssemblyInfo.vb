@@ -18,13 +18,15 @@ Imports System.Reflection
  Assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright Guillermo Som (elGuille), 2020"),  _
  Assembly: System.Reflection.AssemblyDescriptionAttribute("Utilidades para colorear, evaluar y compilar con dotnet"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Evaluar si tiene fallos,"& _ 
     " Compilar, Ejecutar y Colorear el código y para HTML"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"(para .NET 5.0 revisión "& _ 
-    "del 27-nov-2020)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"v1.0.0.3 (27/Nov/20) Se comprueba si está la carpeta de dotn"& _ 
-    "et, se avisa mediante el evento Compilar.TieneDotnetEvent"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.3"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0"),  _
+    "del 27-nov-2020)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"v1.0.0.6 (27-nov-20) Quito el evento compartido de Compilar "& _ 
+    "en el programa cliente comprobar el valor de TieneDotnet. Las versiones x86 y An"& _ 
+    "yCPU tendrá la misma versión"),  _
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.6"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.6"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("gsUtilidadesNET"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("gsUtilidadesNET"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.6"),  _
+ Assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/elGuille-info/gsUtilidadesNET"),  _
  Assembly: System.Resources.NeutralResourcesLanguageAttribute("es-ES"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
