@@ -1,7 +1,10 @@
+.\Debug\*.*
+.\Release\*.*
 *.snk
 *.lnk
 *.zip
 *.exe
+*.dll
 *.obj
 *.cab
 *.msi
