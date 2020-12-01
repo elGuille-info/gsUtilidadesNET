@@ -6,10 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "gsUtilidadesNET/1.0.0.7": {
+      "gsUtilidadesNET/1.0.0.8": {
         "dependencies": {
           "Microsoft.CodeAnalysis": "3.8.0",
-          "Microsoft.CodeAnalysis.Analyzers": "3.3.1"
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.1",
+          "Mostrar-contenido-ensamblado-x86": "1.0.0"
         },
         "runtime": {
           "gsUtilidadesNET.dll": {}
@@ -1147,7 +1148,7 @@
     }
   },
   "libraries": {
-    "gsUtilidadesNET/1.0.0.7": {
+    "gsUtilidadesNET/1.0.0.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

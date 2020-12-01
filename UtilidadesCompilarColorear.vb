@@ -11,6 +11,7 @@
 'v1.0.0.6               Quito el evento compartido de Compilar en el programa cliente comprobar el valor de TieneDotnet.
 '                       Las versiones x86 y AnyCPU tendrán la misma versión
 'v1.0.0.7   30/Nov/20   Añado la extensión ToUpperFirstChar
+'v1.0.0.8   01-dic-20   Añado el proyecto Mostrar contenido ensamblado (x86 y x64)
 '
 '
 ' (c) Guillermo (elGuille) Som, 2020

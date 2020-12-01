@@ -18,12 +18,13 @@ Imports System.Reflection
  Assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright Guillermo Som (elGuille), 2020"),  _
  Assembly: System.Reflection.AssemblyDescriptionAttribute("Utilidades para colorear, evaluar y compilar con dotnet"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Evaluar si tiene fallos,"& _ 
     " Compilar, Ejecutar y Colorear el código y para HTML"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"(para .NET 5.0 revisión "& _ 
-    "del 30-nov-2020)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"v1.0.0.7 (30-nov-20) Añado la extensión ToUpperFirstChar"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.7"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.7"),  _
+    "del 01-dic-2020)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"v1.0.0.8 (01-dic-20) Añado el proyecto Mostrar contenido ens"& _ 
+    "amblado (x64)"),  _
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.8"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.8"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("gsUtilidadesNET"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("gsUtilidadesNET"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.7"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.8"),  _
  Assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/elGuille-info/gsUtilidadesNET"),  _
  Assembly: System.Resources.NeutralResourcesLanguageAttribute("es-ES"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _

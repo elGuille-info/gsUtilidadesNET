@@ -22,6 +22,7 @@ v1.0.0.5 (27/Nov/20) v1.0.0.5 (27/Nov/20) Versión específica para AnyCPU sin p
     <repository type="git" url="https://github.com/elGuille-info/gsUtilidadesNET" />
     <dependencies>
       <group targetFramework="net5.0-windows7.0">
+        <dependency id="Mostrar-contenido-ensamblado-x86" version="1.0.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.CodeAnalysis" version="3.8.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>

@@ -111,3 +111,6 @@ E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x64\Release\net5.0-win
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x64\Release\net5.0-windows\ref\gsUtilidadesNET.dll
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x64\Release\net5.0-windows\gsUtilidadesNET.pdb
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x64\Release\net5.0-windows\gsUtilidadesNET.genruntimeconfig.cache
+E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\bin\Release\net5.0-windows\Mostrar contenido ensamblado.exe
+E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\bin\Release\net5.0-windows\Mostrar contenido ensamblado.dll
+E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\bin\Release\net5.0-windows\Mostrar contenido ensamblado.pdb

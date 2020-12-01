@@ -9,7 +9,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <icon>gsCompilarEjecutarNET.jpg</icon>
     <description>Utilidades para colorear, evaluar y compilar con dotnet
-Evaluar si tiene fallos, Compilar, Ejecutar y C-olorear el código y para HTML
+Evaluar si tiene fallos, Compilar, Ejecutar y Colorear el código y para HTML
 
 (para .NET 5.0 revisión del 30-nov-2020)
 
@@ -22,6 +22,7 @@ v1.0.0.4 (27/Nov/20) Versión específica para plataformas de x86 (32 bits)</rel
     <repository type="git" url="https://github.com/elGuille-info/gsUtilidadesNET" />
     <dependencies>
       <group targetFramework="net5.0-windows7.0">
+        <dependency id="Mostrar-contenido-ensamblado" version="1.0.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.CodeAnalysis" version="3.8.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
