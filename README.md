@@ -1,6 +1,9 @@
 # gsUtilidadesNET
 Utilidades para colorear, evaluar y compilar con dotnet Evaluar si tiene fallos, Compilar, Ejecutar y Colorear el código y para HTML  (para .NET 5.0 revisión del 01-dic-2020)<br>
 
+__NOTA__
+Para usar las opciones de colorear y compilar debes tener instalado el .NET Core (5.0  o superior)
+<br>
 ## Clases expuestas
 Eata "biblioteca" es una aplicación para WindowsForms que expone varias clases.<br>
 **CompararString** - Clase para hacer las comparaciones de cadenas que implementa IComparer(Of String) y IEqualityComparer(Of String).<br>
