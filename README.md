@@ -10,7 +10,7 @@ Si quieres ver un resumen de las clases, métodos, propiedades, etc de esta "bib
 [Clases expuestas por gsUtilidadesNET](https://github.com/elGuille-info/gsUtilidadesNET/blob/master/Clases%20expuestas%20por%20gsUtilidadesNET.md)
 
 <br>
-<br>
+
 ## Clases expuestas
 Esta "biblioteca" es una aplicación para WindowsForms que expone varias clases.
 
@@ -27,6 +27,7 @@ Esta "biblioteca" es una aplicación para WindowsForms que expone varias clases.
 **Marcadores** - Clase para manejar marcadores (Bookmarks).<br>
 **UtilEnum** - Clase con la definición de la enumeración FormatosEncoding y utilidades para manejar enumeraciones.<br>
 **UtilidadesCompilarColorear** - Clase con definición de la versión y las clases expuestas.<br>
+
 <br>
 
 ## Proyectos disponibles
