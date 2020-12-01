@@ -1720,14 +1720,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Mostrar-contenido-ensamblado/1.0.0": {
+      "Mostrar-contenido-ensamblado-x86/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Mostrar-contenido-ensamblado.dll": {}
+          "bin/placeholder/Mostrar-contenido-ensamblado-x86.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Mostrar-contenido-ensamblado.dll": {}
+          "bin/placeholder/Mostrar-contenido-ensamblado-x86.dll": {}
         }
       }
     }
@@ -5680,17 +5680,17 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Mostrar-contenido-ensamblado/1.0.0": {
+    "Mostrar-contenido-ensamblado-x86/1.0.0": {
       "type": "project",
-      "path": "../Mostrar contenido ensamblado usando reflection/Mostrar contenido ensamblado/Mostrar contenido ensamblado.csproj",
-      "msbuildProject": "../Mostrar contenido ensamblado usando reflection/Mostrar contenido ensamblado/Mostrar contenido ensamblado.csproj"
+      "path": "../Mostrar contenido ensamblado usando reflection/Mostrar contenido ensamblado/Mostrar contenido ensamblado x86.csproj",
+      "msbuildProject": "../Mostrar contenido ensamblado usando reflection/Mostrar contenido ensamblado/Mostrar contenido ensamblado x86.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
       "Microsoft.CodeAnalysis >= 3.8.0",
       "Microsoft.CodeAnalysis.Analyzers >= 3.3.1",
-      "Mostrar-contenido-ensamblado >= 1.0.0"
+      "Mostrar-contenido-ensamblado-x86 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5699,11 +5699,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0.8",
+    "version": "1.0.0.9",
     "restore": {
-      "projectUniqueName": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNET.vbproj",
-      "projectName": "gsUtilidadesNET",
-      "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNET.vbproj",
+      "projectUniqueName": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNETx86.vbproj",
+      "projectName": "gsUtilidadesNETx86",
+      "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNETx86.vbproj",
       "packagesPath": "C:\\Users\\Guille\\.nuget\\packages\\",
       "outputPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\obj\\",
       "projectStyle": "PackageReference",
@@ -5727,8 +5727,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "E:\\gsCodigo_00\\Visual Studio\\net core\\Mostrar contenido ensamblado usando reflection\\Mostrar contenido ensamblado\\Mostrar contenido ensamblado.csproj": {
-              "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\Mostrar contenido ensamblado usando reflection\\Mostrar contenido ensamblado\\Mostrar contenido ensamblado.csproj"
+            "E:\\gsCodigo_00\\Visual Studio\\net core\\Mostrar contenido ensamblado usando reflection\\Mostrar contenido ensamblado\\Mostrar contenido ensamblado x86.csproj": {
+              "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\Mostrar contenido ensamblado usando reflection\\Mostrar contenido ensamblado\\Mostrar contenido ensamblado x86.csproj"
             }
           }
         }

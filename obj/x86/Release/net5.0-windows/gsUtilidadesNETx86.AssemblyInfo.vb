@@ -19,12 +19,12 @@ Imports System.Reflection
  Assembly: System.Reflection.AssemblyDescriptionAttribute("Utilidades para colorear, evaluar y compilar con dotnet"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"Evaluar si tiene fallos,"& _ 
     " Compilar, Ejecutar y Colorear el código y para HTML"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"(para .NET 5.0 revisión "& _ 
     "del 01-dic-2020)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"v1.0.0.8 (01-dic-20) Añado el proyecto Mostrar contenido ens"& _ 
-    "amblado (x86)"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.8"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.8"),  _
+    "amblado (x86)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"NuGet dice que la referencia es el paqueete de x64"),  _
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.9"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.9"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("gsUtilidadesNETx86"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("gsUtilidadesNETx86"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.8"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.9"),  _
  Assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/elGuille-info/gsUtilidadesNET"),  _
  Assembly: System.Resources.NeutralResourcesLanguageAttribute("es-ES"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
