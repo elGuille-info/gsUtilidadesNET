@@ -7,7 +7,9 @@ Utilidades para colorear, evaluar y compilar con dotnet Evaluar si tiene fallos,
 
 ## Clases expuestas
 Esta "biblioteca" es una aplicación para WindowsForms que expone varias clases.--
+
 **CompararString** - Clase para hacer las comparaciones de cadenas que implementa IComparer(Of String) y IEqualityComparer(Of String).--
+
 **Compilar** - Clase para evaluar, compilar y colorear código de VB y C#.<br>
 **Config** - Clase para manejar ficheros de configuración.<br>
 **DiagClassifSpanInfo.ClassifSpanInfo** - Clase para manejar información del tipo ClassifiedSpan.<br>
