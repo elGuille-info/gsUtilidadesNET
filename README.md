@@ -1,8 +1,8 @@
 # gsUtilidadesNET
 Utilidades para colorear, evaluar y compilar con dotnet Evaluar si tiene fallos, Compilar, Ejecutar y Colorear el código y para HTML  (para .NET 5.0 revisión del 01-dic-2020)<br>
 
-__NOTA__
-Para usar las opciones de colorear y compilar debes tener instalado el .NET Core (5.0  o superior)
+> __NOTA__
+> Para usar las opciones de colorear y compilar debes [instalar .NET Core (5.0  o superior)](https://dotnet.microsoft.com/download/dotnet).
 <br>
 ## Clases expuestas
 Eata "biblioteca" es una aplicación para WindowsForms que expone varias clases.<br>
