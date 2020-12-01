@@ -31,5 +31,7 @@ La de 32 bits la he probado en una máquina virtual con Windows 7 Enterpise SP1 
 Es porque falta una actualización de Microsoft (windows6.1-kb2533623), pero que no se puede descargar porque Microsoft lo retiró.<br>
 Buscando con Bing me encontré con el aviso de que se podía descargar la actualización de kb4457144.<br>
 La instalé, pero seguía dando el mismo error.<br>
-Se ve que no está tan bien preparado el DOTNET para trabajar con Windows 7 (porque no sé qué otro sistema operativo de 32 bits compatible con .NET podemos usar los que queramos usar Windows.<br>
+Se ve que no está tan bien preparado el DOTNET para trabajar con Windows 7, por tanto, será recomendable usar Windows 10 de 32 bits para que las aplicaciones de .NET funcionen.<br>
+Si alguien prueba la utilidad en un sistema de 32 bits y le funciona, que lo comente en la entrada que pondré en el blog.<br>
+Gracias.<br>
 <br>
