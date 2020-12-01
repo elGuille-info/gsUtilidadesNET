@@ -4,8 +4,9 @@ Utilidades para colorear, evaluar y compilar con dotnet Evaluar si tiene fallos,
 > __NOTA__
 > Para usar las opciones de colorear y compilar debes [instalar .NET Core (5.0  o superior)](https://dotnet.microsoft.com/download/dotnet).
 <br>
+
 ## Clases expuestas
-Eata "biblioteca" es una aplicación para WindowsForms que expone varias clases.<br>
+Esta "biblioteca" es una aplicación para WindowsForms que expone varias clases.<br>
 **CompararString** - Clase para hacer las comparaciones de cadenas que implementa IComparer(Of String) y IEqualityComparer(Of String).<br>
 **Compilar** - Clase para evaluar, compilar y colorear código de VB y C#.<br>
 **Config** - Clase para manejar ficheros de configuración.<br>
