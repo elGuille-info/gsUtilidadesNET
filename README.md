@@ -25,6 +25,7 @@ Esta "biblioteca" es una aplicación para WindowsForms que expone varias clases.
 ## Proyectos disponibles
 En el código fuente verás dos ficheros de proyectos, uno lo utilizo para compilar a 32 bits (x86) y el otro para compilar a 64 bits (x64).<br>
 Esto es porque esta biblioteca la utilizo en gsEvaluarColorearCodigoNET y tengo dos versiones diferentes también.<br>
+Estos proyectos están firmados con mi fichero de claves (__elGuille.snk__) que no se incluye por razones obvias.<br>
 <br>
 ### Nota sobre la versión de 32 bits (x86)
 La de 32 bits la he probado en una máquina virtual con Windows 7 Enterpise SP1 (32 bits) y funciona bien, salvo que al compilar da error.<br>
