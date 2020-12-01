@@ -5,8 +5,10 @@ Utilidades para colorear, evaluar y compilar con dotnet Evaluar si tiene fallos,
 > Para usar las opciones de colorear y compilar debes [instalar .NET Core (5.0  o superior)](https://dotnet.microsoft.com/download/dotnet).
 <br>
 <br>
-Si quieres ver un resumen de las clases, métodos, propiedades, etc de esta "biblioteca" mira esto:<br>
+Si quieres ver un resumen de las clases, métodos, propiedades, etc de esta "biblioteca" mira esto:
+
 [Clases expuestas por gsUtilidadesNET](https://github.com/elGuille-info/gsUtilidadesNET/blob/master/Clases%20expuestas%20por%20gsUtilidadesNET.md)
+
 <br>
 <br>
 ## Clases expuestas
