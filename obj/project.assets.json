@@ -5683,11 +5683,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0.6",
+    "version": "1.0.0.7",
     "restore": {
-      "projectUniqueName": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNET.vbproj",
-      "projectName": "gsUtilidadesNET",
-      "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNET.vbproj",
+      "projectUniqueName": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNETx86.vbproj",
+      "projectName": "gsUtilidadesNETx86",
+      "projectPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNETx86.vbproj",
       "packagesPath": "C:\\Users\\Guille\\.nuget\\packages\\",
       "outputPath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\obj\\",
       "projectStyle": "PackageReference",

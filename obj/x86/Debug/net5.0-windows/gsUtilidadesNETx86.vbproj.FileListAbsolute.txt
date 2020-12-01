@@ -110,4 +110,3 @@ E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x86\Debug\net5.0-windo
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x86\Debug\net5.0-windows\ref\gsUtilidadesNETx86.dll
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x86\Debug\net5.0-windows\gsUtilidadesNETx86.pdb
 E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x86\Debug\net5.0-windows\gsUtilidadesNETx86.genruntimeconfig.cache
-E:\gsCodigo_00\Visual Studio\net core\gsUtilidadesNET\obj\x86\Debug\net5.0-windows\gsUtilidadesNETx86.vbprojAssemblyReference.cache

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "gsUtilidadesNETx86/1.0.0.6": {
+      "gsUtilidadesNETx86/1.0.0.7": {
         "dependencies": {
           "Microsoft.CodeAnalysis": "3.8.0",
           "Microsoft.CodeAnalysis.Analyzers": "3.3.1"
@@ -1147,7 +1147,7 @@
     }
   },
   "libraries": {
-    "gsUtilidadesNETx86/1.0.0.6": {
+    "gsUtilidadesNETx86/1.0.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

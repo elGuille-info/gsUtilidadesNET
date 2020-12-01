@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YQ+NfOy0qONts45F8ARwOafYuXF5xGwJR0p8R41MFAW9uaGtUu38TxB56wOkpcfCH8jxnc0tToi5b80ptO9QzQ==",
+  "dgSpecHash": "CnR85QDv9X8VpuW6dOeD2KeMNgI6JRQW/xKhAC58yfekxiRNiLn0w+ZTaIWJRK8EL95zqc3z624o6//tJNgH4w==",
   "success": true,
-  "projectFilePath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNET.vbproj",
+  "projectFilePath": "E:\\gsCodigo_00\\Visual Studio\\net core\\gsUtilidadesNET\\gsUtilidadesNETx86.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guille\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Guille\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
