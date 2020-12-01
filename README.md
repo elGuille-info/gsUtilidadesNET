@@ -29,4 +29,6 @@ Esto es porque esta biblioteca la utilizo en gsEvaluarColorearCodigoNET y tengo 
 La de 32 bits la he probado en una máquina virtual con Windows 7 Enterpise SP1 (32 bits) y funciona bien, salvo que al compilar da error.<br>
 Es porque falta una actualización de Microsoft (windows6.1-kb2533623), pero que no se puede descargar porque Microsoft lo retiró.<br>
 Buscando con Bing me encontré con el aviso de que se podía descargar la actualización de kb4457144.<br>
+La instalé, pero seguía dando el mismo error.<br>
+Se ve que no está tan bien preparado el DOTNET para trabajar con Windows 7 (porque no sé qué otro sistema operativo de 32 bits compatible con .NET podemos usar los que queramos usar Windows.<br>
 <br>
