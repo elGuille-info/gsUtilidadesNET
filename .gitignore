@@ -1,5 +1,7 @@
 # ignorar el contenido de las carpetas vs, obj y bin
+
 *.dtbcache.v2
+*.suo
 
 **/bin
 **/obj
