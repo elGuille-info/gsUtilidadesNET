@@ -1,9 +1,9 @@
 # ignorar el contenido de las carpetas vs, obj y bin
+*.dtbcache.v2
+
 **/bin
 **/obj
 **/.vs
-# **/Debug
-# **/Release
 
 # ignorar estas extensiones de los ficheros
 *.snk
