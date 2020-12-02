@@ -1,380 +1,400 @@
 # Contenido del ensamblado 'gsUtilidadesNET.dll'
 
-InformaciÃ³n de los tipos definidos en el ensamblado.
+Información de los tipos definidos en el ensamblado.
 
->
+
 >**NOTA:**
->Esta informaciÃ³n la he conseguido usando la utilidad [Mostrar contenido ensamblado](https://github.com/elGuille-info/Mostrar-contenido-ensamblado)
->
+>Esta información la he conseguido usando la utilidad [Mostrar contenido ensamblado](https://github.com/elGuille-info/Mostrar-contenido-ensamblado)
+
 
 ## Clase: VB$AnonymousDelegate_0`2
     IsGenericType = True
     Constructores:
         IsPublic = True
-            ParÃ¡metros: Object TargetObject, IntPtr TargetMethod
-    VB$AnonymousDelegate_0`2.MÃ©todos:
-        Method BeginInvoke
-            ParÃ¡metros: TArg0 c, AsyncCallback DelegateCallback, Object DelegateAsyncState
-        Method EndInvoke
-            ParÃ¡metros: IAsyncResult DelegateAsyncResult
-        Method Invoke
-            ParÃ¡metros: TArg0 c
-        Method GetObjectData
-            ParÃ¡metros: SerializationInfo info, StreamingContext context
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetInvocationList
-
-        Method GetHashCode
-
-        Method Clone
-
-        Method DynamicInvoke
-            ParÃ¡metros: Object[] args
-        Method GetType
-
-        Method ToString
-
+            Parámetros: Object TargetObject, IntPtr TargetMethod
+    VB$AnonymousDelegate_0`2.Métodos:
+        IAsyncResult  BeginInvoke
+            Parámetros: TArg0 c, AsyncCallback DelegateCallback, Object DelegateAsyncState
+        TResult  EndInvoke
+            Parámetros: IAsyncResult DelegateAsyncResult
+        TResult  Invoke
+            Parámetros: TArg0 c
+        Void  GetObjectData
+            Parámetros: SerializationInfo info, StreamingContext context
+        Boolean  Equals
+            Parámetros: Object obj
+        Delegate[]  GetInvocationList
+        Int32  GetHashCode
+        Object  Clone
+        Object  DynamicInvoke
+            Parámetros: Object[] args
+        Type  GetType
+        String  ToString
+    VB$AnonymousDelegate_0`2.Interfaces:
+        ICloneable
+            Clone
+        ISerializable
+            GetObjectData
 
 ## Clase: MyApplication
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
-    MyApplication.MÃ©todos:
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Sin parámetros
+    MyApplication.Métodos:
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: CompararString
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
-    CompararString.MÃ©todos:
-        Method Compare
-            ParÃ¡metros: String x, String y
-        Method Equals
-            ParÃ¡metros: String x, String y
-        Method GetHashCode
-            ParÃ¡metros: String obj
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Sin parámetros
+    CompararString.Métodos:
+        Int32  Compare
+            Parámetros: String x, String y
+        Boolean  Equals
+            Parámetros: String x, String y
+        Int32  GetHashCode
+            Parámetros: String obj
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
+    CompararString.Interfaces:
+        IComparer`1
+            Compare
+        IEqualityComparer`1
+            Equals
+            GetHashCode
 
 ## Clase: Compilar
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
-    Compilar.MÃ©todos:
-        Method GetColorFromName
-            ParÃ¡metros: String classificationTypeName
-        Method GetStringColorFromName
-            ParÃ¡metros: String classificationTypeName
-        Method WriteColorDictionaryToFile
-
-        Method WriteColorDictionaryToFile
-            ParÃ¡metros: String ficPath
-        Method UpdateColorDictionaryFromFile
-
-        Method UpdateColorDictionaryFromFile
-            ParÃ¡metros: String ficPath
-        Method ComprobarCodigo
-            ParÃ¡metros: String sourceCode, String lenguaje
-        Method CompileRun
-            ParÃ¡metros: String file, [Optional] Boolean run = True
-        Method CompileFile
-            ParÃ¡metros: String filepath
-        Method CrearJson
-            ParÃ¡metros: ValueTuple`3 res
-        Method EvaluaCodigo
-            ParÃ¡metros: String sourceCode, String lenguaje
-        Method WindowsDesktopApp
-
-        Method NETCoreApp
-
-        Method ColoreaHTML
-            ParÃ¡metros: String sourceCode, String lenguaje, Boolean mostrarLineas
-        Method ColoreaRichTextBox
-        Method ColoreaSeleccionRichTextBox
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Sin parámetros
+    Compilar.Métodos:
+        Drawing.Color  GetColorFromName
+            Parámetros: String classificationTypeName
+        String  GetStringColorFromName
+            Parámetros: String classificationTypeName
+        Void  WriteColorDictionaryToFile
+        Void  WriteColorDictionaryToFile
+            Parámetros: String ficPath
+        Void  UpdateColorDictionaryFromFile
+        Void  UpdateColorDictionaryFromFile
+            Parámetros: String ficPath
+        Microsoft.CodeAnalysis.Emit.EmitResult  ComprobarCodigo
+            Parámetros: String sourceCode, String lenguaje
+        ValueTuple`2[Microsoft.CodeAnalysis.Emit.EmitResult,String]  CompileRun
+            Parámetros: String file, [Optional] Boolean run = True
+        ValueTuple`3[Microsoft.CodeAnalysis.Emit.EmitResult,String,Boolean]  CompileFile
+            Parámetros: String filepath
+        Void  CrearJson
+            Parámetros: ValueTuple`3 res
+        Collections.Generic.Dictionary`2[String,Collections.Generic.Dictionary`2[String,gsUtilidadesNET.ClassifSpanInfo]]  EvaluaCodigo
+            Parámetros: String sourceCode, String lenguaje
+        ValueTuple`2[String,String]  WindowsDesktopApp
+        ValueTuple`2[String,String]  NETCoreApp
+        String  ColoreaHTML
+            Parámetros: String sourceCode, String lenguaje, Boolean mostrarLineas
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: Config
     Constructores:
         IsPublic = True
-            ParÃ¡metros: String fic
+            Parámetros: String fic
         IsPublic = True
-            ParÃ¡metros: String fic, Boolean guardarAlAsignar
-    Config.MÃ©todos:
-        Method GetValue
-            ParÃ¡metros: String seccion, String clave
-        Method GetValue
-            ParÃ¡metros: String seccion, String clave, String predeterminado
-        Method GetValue
-            ParÃ¡metros: String seccion, String clave, Int32 predeterminado
-        Method GetValue
-            ParÃ¡metros: String seccion, String clave, Double predeterminado
-        Method GetValue
-            ParÃ¡metros: String seccion, String clave, Boolean predeterminado
-        Method SetValue
-            ParÃ¡metros: String seccion, String clave, String valor
-        Method SetValue
-            ParÃ¡metros: String seccion, String clave, Int32 valor
-        Method SetValue
-            ParÃ¡metros: String seccion, String clave, Double valor
-        Method SetKeyValue
-            ParÃ¡metros: String seccion, String clave, Double valor
-        Method SetValue
-            ParÃ¡metros: String seccion, String clave, Boolean valor
-        Method SetKeyValue
-            ParÃ¡metros: String seccion, String clave, String valor
-        Method SetKeyValue
-            ParÃ¡metros: String seccion, String clave, Int32 valor
-        Method SetKeyValue
-            ParÃ¡metros: String seccion, String clave, Boolean valor
-        Method RemoveSection
-            ParÃ¡metros: String seccion
-        Method Secciones
-
-        Method Claves
-            ParÃ¡metros: String seccion
-        Method Save
-
-        Method Read
-
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Parámetros: String fic, Boolean guardarAlAsignar
+    Config.Métodos:
+        String  GetValue
+            Parámetros: String seccion, String clave
+        String  GetValue
+            Parámetros: String seccion, String clave, String predeterminado
+        Int32  GetValue
+            Parámetros: String seccion, String clave, Int32 predeterminado
+        Double  GetValue
+            Parámetros: String seccion, String clave, Double predeterminado
+        Boolean  GetValue
+            Parámetros: String seccion, String clave, Boolean predeterminado
+        Void  SetValue
+            Parámetros: String seccion, String clave, String valor
+        Void  SetValue
+            Parámetros: String seccion, String clave, Int32 valor
+        Void  SetValue
+            Parámetros: String seccion, String clave, Double valor
+        Void  SetKeyValue
+            Parámetros: String seccion, String clave, Double valor
+        Void  SetValue
+            Parámetros: String seccion, String clave, Boolean valor
+        Void  SetKeyValue
+            Parámetros: String seccion, String clave, String valor
+        Void  SetKeyValue
+            Parámetros: String seccion, String clave, Int32 valor
+        Void  SetKeyValue
+            Parámetros: String seccion, String clave, Boolean valor
+        Void  RemoveSection
+            Parámetros: String seccion
+        Collections.Generic.List`1[String]  Secciones
+        Collections.Generic.Dictionary`2[String,String]  Claves
+            Parámetros: String seccion
+        Void  Save
+        Void  Read
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: ClassifSpanInfo
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
+            Sin parámetros
         IsPublic = True
-            ParÃ¡metros: ClassifiedSpan classifSpan, TrueString word
-    ClassifSpanInfo.MÃ©todos:
-        Method ToString
-
-        Method SetClassifiedSpan
-            ParÃ¡metros: ClassifiedSpan classifSpan, [Optional] String word = <Nada>
-        Method GetType
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Parámetros: ClassifiedSpan classifSpan, TrueString word
+    ClassifSpanInfo.Métodos:
+        String  ToString
+        Void  SetClassifiedSpan
+            Parámetros: ClassifiedSpan classifSpan, [Optional] String word = <Nada>
+        Type  GetType
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: DiagInfo
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
+            Sin parámetros
         IsPublic = True
-            ParÃ¡metros: Diagnostic diag
-    DiagInfo.MÃ©todos:
-        Method ToString
-
-        Method SetDiagnostic
-            ParÃ¡metros: Diagnostic diag
-        Method GetType
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Parámetros: Diagnostic diag
+    DiagInfo.Métodos:
+        String  ToString
+        Void  SetDiagnostic
+            Parámetros: Diagnostic diag
+        Type  GetType
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: Extensiones
-    Extensiones.MÃ©todos:
-        Method ContienePalabra
-            ParÃ¡metros: String texto, String palabra
-        Method FindString
-        Method ComprobarFinLinea
-            ParÃ¡metros: String selT
-        Method QuitarPredeterminado
-            ParÃ¡metros: String texto, String predeterminado
-        Method ContieneLetras
-            ParÃ¡metros: String texto
-        Method QuitarTildes
-            ParÃ¡metros: String s
-        Method ReplaceSiNoEstaPoner
-            ParÃ¡metros: String texto, String buscar, String poner
-        Method ReplaceSiNoEstaPoner
-            ParÃ¡metros: String texto, String buscar, String poner, StringComparison comparar
-        Method ReplaceWordSiNoEstaPoner
-            ParÃ¡metros: String texto, String buscar, String poner, StringComparison comparar
-        Method QuitarTodosLosEspacios
-            ParÃ¡metros: String texto
-        Method CuantasPalabras
-            ParÃ¡metros: String texto
-        Method CambiarCase
-            ParÃ¡metros: String text, CasingValues queCase
-        Method ToTitle
-            ParÃ¡metros: String text
-        Method ToLowerFirstChar
-            ParÃ¡metros: String text
-        Method ToLowerFirst
-            ParÃ¡metros: String text
-        Method Palabras
-            ParÃ¡metros: String text
-        Method AsInteger
-        Method Clonar
-        Method ToList
-        Method ToList
-        Method ToList
-        Method ReplaceWordOrdinal
-            ParÃ¡metros: String texto, String buscar, String poner
-        Method ReplaceWordIgnoreCase
-            ParÃ¡metros: String texto, String buscar, String poner
-        Method ReplaceWord
-            ParÃ¡metros: String texto, String buscar, String poner, StringComparison comparar
-        Method GetType
+    Extensiones.Métodos:
+        Boolean  ContienePalabra
+            Parámetros: String texto, String palabra
+        String  ComprobarFinLinea
+            Parámetros: String selT
+        String  QuitarPredeterminado
+            Parámetros: String texto, String predeterminado
+        Boolean  ContieneLetras
+            Parámetros: String texto
+        String  QuitarTildes
+            Parámetros: String s
+        String  ReplaceSiNoEstaPoner
+            Parámetros: String texto, String buscar, String poner
+        String  ReplaceSiNoEstaPoner
+            Parámetros: String texto, String buscar, String poner, StringComparison comparar
+        String  ReplaceWordSiNoEstaPoner
+            Parámetros: String texto, String buscar, String poner, StringComparison comparar
+        String  QuitarTodosLosEspacios
+            Parámetros: String texto
+        Int32  CuantasPalabras
+            Parámetros: String texto
+        String  CambiarCase
+            Parámetros: String text, CasingValues queCase
+        String  ToTitle
+            Parámetros: String text
+        String  ToUpperFirstChar
+            Parámetros: String text
+        String  ToLowerFirstChar
+            Parámetros: String text
+        String  ToLowerFirst
+            Parámetros: String text
+        Collections.Generic.List`1[String]  Palabras
+            Parámetros: String text
+        String  ReplaceWordOrdinal
+            Parámetros: String texto, String buscar, String poner
+        String  ReplaceWordIgnoreCase
+            Parámetros: String texto, String buscar, String poner
+        String  ReplaceWord
+            Parámetros: String texto, String buscar, String poner, StringComparison comparar
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+## Clase: InfoEnsambladoWrap
+    Constructores:
+        IsPublic = True
+            Sin parámetros
+    InfoEnsambladoWrap.Métodos:
+        Boolean  GuardarInfo
+            Parámetros: String[] args, String fic
+        String  InfoTipo
+            Parámetros: String[] args, [Optional] Boolean mostrarComandos = False
+        String  MostrarAyuda
+            Parámetros: Boolean mostrarEnConsola, Boolean esperar
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: Marcadores
     Constructores:
         IsPublic = True
-            ParÃ¡metros: Int32 selStart, String fic
-    Marcadores.MÃ©todos:
-        Method Add
-            ParÃ¡metros: Int32 inicio, Int32 selStart
-        Method GetSelectionStart
-            ParÃ¡metros: Int32 inicio
-        Method Contains
-            ParÃ¡metros: Int32 inicio
-        Method Remove
-            ParÃ¡metros: Int32 inicio
-        Method Count
-
-        Method ToList
-
-        Method Clear
-
-        Method Where
-            ParÃ¡metros: Func`2 p
-        Method Sort
-
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+            Parámetros: Int32 selStart, String fic
+    Marcadores.Métodos:
+        Void  Add
+            Parámetros: Int32 inicio, Int32 selStart
+        Int32  GetSelectionStart
+            Parámetros: Int32 inicio
+        Boolean  Contains
+            Parámetros: Int32 inicio
+        Boolean  Remove
+            Parámetros: Int32 inicio
+        Int32  Count
+        Collections.Generic.List`1[Int32]  ToList
+        Void  Clear
+        Collections.Generic.IEnumerable`1[Int32]  Where
+            Parámetros: Func`2 p
+        Void  Sort
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: UtilEnum
-    UtilEnum.MÃ©todos:
-        Method CheckValidEnumValue
-            ParÃ¡metros: String arg, Object val, Type class, [Optional] Boolean exception = False
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
+    UtilEnum.Métodos:
+        Boolean  CheckValidEnumValue
+            Parámetros: String arg, Object val, Type class, [Optional] Boolean exception = False
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
 ## Clase: UtilidadesCompilarColorear
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
-    UtilidadesCompilarColorear.MÃ©todos:
-        Method Main
+            Sin parámetros
+    UtilidadesCompilarColorear.Métodos:
+        Void  Main
+        String  Version
+        Collections.Generic.HashSet`1[String]  ClasesExpuestas
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
-        Method Version
+## Enumeración: CasingValues
+    Normal
+    Upper
+    Lower
+    Title
+    FirstToUpper
+    FirstToLower
 
-        Method ClasesExpuestas
-
-        Method GetType
-
-        Method ToString
-
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
-
-## Clase: CasingValues
-    CasingValues.MÃ©todos:
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method HasFlag
-            ParÃ¡metros: Enum flag
-        Method GetHashCode
-
-        Method ToString
-
-        Method CompareTo
-            ParÃ¡metros: Object target
-        Method ToString
-            ParÃ¡metros: String format, IFormatProvider provider
-        Method ToString
-            ParÃ¡metros: String format
-        Method ToString
-            ParÃ¡metros: IFormatProvider provider
-        Method GetTypeCode
-
-        Method GetType
-
+    CasingValues.Métodos:
+        Boolean  Equals
+            Parámetros: Object obj
+        Boolean  HasFlag
+            Parámetros: Enum flag
+        Int32  GetHashCode
+        String  ToString
+        Int32  CompareTo
+            Parámetros: Object target
+        String  ToString
+            Parámetros: String format, IFormatProvider provider
+        String  ToString
+            Parámetros: String format
+        String  ToString
+            Parámetros: IFormatProvider provider
+        TypeCode  GetTypeCode
+        Type  GetType
+    CasingValues.Interfaces:
+        IComparable
+            CompareTo
+        IFormattable
+            ToString
+        IConvertible
+            GetTypeCode
+            ToBoolean
+            ToChar
+            ToSByte
+            ToByte
+            ToInt16
+            ToUInt16
+            ToInt32
+            ToUInt32
+            ToInt64
+            ToUInt64
+            ToSingle
+            ToDouble
+            ToDecimal
+            ToDateTime
+            ToString
+            ToType
 
 ## Clase: _Closure$__
     Constructores:
         IsPublic = True
-            Sin parÃ¡metros
-    _Closure$__.MÃ©todos:
-        Method GetType
+            Sin parámetros
+    _Closure$__.Métodos:
+        Type  GetType
+        String  ToString
+        Boolean  Equals
+            Parámetros: Object obj
+        Int32  GetHashCode
 
-        Method ToString
+## Enumeración: FormatosEncoding
+    Latin1
+    UTF8
+    Default
 
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method GetHashCode
-
-
-## Clase: FormatosEncoding
-    FormatosEncoding.MÃ©todos:
-        Method Equals
-            ParÃ¡metros: Object obj
-        Method HasFlag
-            ParÃ¡metros: Enum flag
-        Method GetHashCode
-
-        Method ToString
-
-        Method CompareTo
-            ParÃ¡metros: Object target
-        Method ToString
-            ParÃ¡metros: String format, IFormatProvider provider
-        Method ToString
-            ParÃ¡metros: String format
-        Method ToString
-            ParÃ¡metros: IFormatProvider provider
-        Method GetTypeCode
-
-        Method GetType
+    FormatosEncoding.Métodos:
+        Boolean  Equals
+            Parámetros: Object obj
+        Boolean  HasFlag
+            Parámetros: Enum flag
+        Int32  GetHashCode
+        String  ToString
+        Int32  CompareTo
+            Parámetros: Object target
+        String  ToString
+            Parámetros: String format, IFormatProvider provider
+        String  ToString
+            Parámetros: String format
+        String  ToString
+            Parámetros: IFormatProvider provider
+        TypeCode  GetTypeCode
+        Type  GetType
+    FormatosEncoding.Interfaces:
+        IComparable
+            CompareTo
+        IFormattable
+            ToString
+        IConvertible
+            GetTypeCode
+            ToBoolean
+            ToChar
+            ToSByte
+            ToByte
+            ToInt16
+            ToUInt16
+            ToInt32
+            ToUInt32
+            ToInt64
+            ToUInt64
+            ToSingle
+            ToDouble
+            ToDecimal
+            ToDateTime
+            ToString
+            ToType
