@@ -503,7 +503,7 @@ Public Module Extensiones
     ''' </summary>
     ''' <param name="mnu">El <see cref="ToolStripMenuItem"/> al que se va a asignar el nuevo menú.</param>
     ''' <param name="eClick">Manejador del evento Click.</param>
-    ''' <param name="eSelect">Manuejador del evento DropDownOpening.</param>
+    ''' <param name="eSelect">Manejador del evento DropDownOpening.</param>
     ''' <returns>Una nueva copia del tipo <see cref="ToolStripMenuItem"/>.</returns>
     <Extension>
     Public Function Clonar(mnu As ToolStripMenuItem,
